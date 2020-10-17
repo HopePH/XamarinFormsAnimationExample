@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="XamarinAnimations.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.Resources>
+        <OnPlatform x:Key="Lato-Bold" x:TypeArguments="x:String">
+            <On Platform="Android" Value="Lato-Bold.ttf#Lato" />
+            <On Platform="iOS" Value="Lato-Bold" />
+        </OnPlatform>
+
+        <OnPlatform x:Key="Lato-Regular" x:TypeArguments="x:String">
+            <On Platform="Android" Value="Lato-Regular.ttf#Lato Regular" />
+            <On Platform="iOS" Value="Lato-Regular" />
+        </OnPlatform>
+
+        <OnPlatform x:Key="FontAwesomeSolid" x:TypeArguments="x:String">
+            <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Pro Solid" />
+            <On Platform="iOS" Value="FontAwesome5Pro-Solid" />
+        </OnPlatform>
+
+        <OnPlatform x:Key="FontAwesomeRegular" x:TypeArguments="x:String">
+            <On Platform="Android" Value="fa-regular-400.ttf#Font Awesome 5 Pro Regular" />
+            <On Platform="iOS" Value="FontAwesome5Pro-Regular" />
+        </OnPlatform>
+
+        <x:String x:Key="fa-heart-o">&#xf004;</x:String>
+        <x:String x:Key="fa-arrow-left">&#xf060;</x:String>
+    </Application.Resources>
+</Application>
